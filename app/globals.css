@@ -15,3 +15,29 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+div>button {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+div>button:hover{
+  background-color: #e0e0e0;
+}
+
+.display {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: right;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  background-color: #fff;
+}
